@@ -1,0 +1,154 @@
+:root{
+    --white-main: #fff;
+    --grey-secondary: #C0C0C0;
+    --blue-button: #167BF7;
+    --color-background: #00030C;
+    --main-source: 'Inter';
+    --blue-button-effect: #3c90fa;
+}
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--main-source);
+    color: var(--white-main);
+    background-color: var(--color-background);
+}
+
+.main-section{
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    
+}
+
+h1{
+    color: var(--white-main);
+}
+
+.container__button{
+    display: block;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: var(--white-main);
+    background-color: var(--blue-button);
+}
+.container__button:hover{
+    color: var(--color-background);
+    background-color: var(--blue-button-effect);
+}
+
+.second_button{
+    background-color: transparent;
+    border: 2px solid var(--white-main);
+}
+
+.container__advice{
+    font-size: 12px;
+    color: var(--grey-secondary);
+}
+
+.container__title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__img{
+    margin: 1em 0 2em 0;
+}
+
+.container__box{
+    margin: 0 6em;
+}
+
+.second__img{
+    width: 80%;
+}
+
+.second{
+    align-items: center;
+    margin: 0 8em;
+}
+
+.description__title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.description__text{
+    color: var(--grey-secondary);
+}
+
+.second__button{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.containter__description{
+    padding: 2em;
+}
+
+.devices{
+    text-align: center;
+}
+
+.devices__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices__title{
+    font-size: 48px;
+    color: var(--white-main);
+}
+
+.list__item{
+    font-size: 32px;
+    color: var(--white-main);
+}
+
+.footer{
+    text-align: center;
+    margin: 5em 3em;
+}
+.footer__img{
+    margin-bottom: 2em;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+}
+.list__link a{
+    margin-left: 1em;
+    text-decoration: none;
+    color: var(--white-main);
+}
+.list__link a:hover{
+    color: var(--blue-button);
+}
+.list__link a:active{
+    color: red;
+}
+
+.footer__text{
+    font-size: 14px;
+    margin: 1em 0;
+    color: var(--grey-secondary);
+}
